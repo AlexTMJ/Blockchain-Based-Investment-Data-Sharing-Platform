@@ -39,7 +39,7 @@ contract InvestmentDataSharingPlatform {
         require(
             brokerIdSecuritiesAccountAddress[_brokerId][_securitiesAccount] ==
                 msg.sender,
-            "You are not the broker of the securities account，[uploadShareSecuritiesAccountInvestmentPerformance] Error."
+            "You are not the broker of the securities account，[uploadShareSecuritiesAccountInvestmentInventory] Error."
         );
 
         emit shareSecuritiesAccountInvestmentInventoryUploaded(
