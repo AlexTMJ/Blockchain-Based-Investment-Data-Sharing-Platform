@@ -12,5 +12,5 @@ https://medium.com/remix-ide/quorum-plugin-for-remix-ee232ebca64c
 
 ---------------------------------------
 
-1. 利用docker建立多節點，參與者包含監管機構、券商等。
+1. 利用docker建立多節點，假設節點參與者包含監管機構、券商等。
 2. 透過Remix IDE連接quorum節點，在Remix上進行測試
